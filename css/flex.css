@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.tile-heading{
+    color: aliceblue;
+    background-color: black;
+    display: inline;
+}
+.banner-container{
+    display: flex;
+    /* justify-content: center; from parent */
+    justify-content: center;
+    gap: 50px;
+    /* or */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* full height of display || without height align not work*/
+    height: 100vh;
+    border: 15px solid rebeccapurple;
+    /* center items vertivally center  */
+    /* align-items:baseline; */
+    align-items: center;
+    /* flex direction: reverse  */
+    /* flex-direction: row-reverse; */
+}
