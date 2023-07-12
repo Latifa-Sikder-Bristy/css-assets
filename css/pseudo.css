@@ -1,0 +1,27 @@
+h3{
+    color: peru;
+}
+/* hover means mouse hover */
+h3:hover { /* applies to all elements */
+    color: blueviolet;
+    background-color: aquamarine;
+}
+input:focus{
+    color: teal;
+    padding-left: 25px;
+    outline: 0;
+    border: 3px solid purple;
+}
+a:visited{
+    color: gray;
+}
+/* li:last-child{
+    color: red;
+}
+li:first-child{
+    color: green;
+} */
+/* even - 2n || odd - 2n+1 */
+li:nth-child(2n+1){
+    color: purple;
+}
