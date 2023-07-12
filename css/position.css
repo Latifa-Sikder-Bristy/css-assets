@@ -44,3 +44,25 @@ p{
     margin-top: 50px;
     right: -30px;
 }
+
+/* Module 5 position styles  */
+.box{
+    border: 2px dotted plum;
+    width: 200px;
+}
+/* .ring{
+    position: relative;
+    left: 50px;
+    top: -30px;
+} */
+.cat{
+    position: absolute;
+}
+.dummy{
+    border: 1px solid red;
+    width: 50px;
+    gap : 2px;
+}
+.cat{
+    position: sticky;
+}
