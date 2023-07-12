@@ -10,3 +10,16 @@ CSS position
    parent doesn’t matte
 5. Sticky
    Position move inside the container space
+
+z-index
+------- To set position above X axis and Y axis ------
+z-index: 5;
+z-index: 4;
+z-index: 3;
+z-index: 2;
+z-index: 1;
+z-index: -1;
+z-index: -2;
+z-index: -3;
+z-index: -4;
+z-index: -5;
