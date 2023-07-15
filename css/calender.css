@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 30px repeat(5, 50px);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.date,
+.day{
+    background-color: skyblue;
+    border-radius: 5px;
+    /* height: 50px; */
+    /* or user templete column row*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.day{
+    background-color: lightgray;
+    font-size: 1em;
+}
+.calendar{
+    width: 50%;
+    border: 2px solid red;
+}

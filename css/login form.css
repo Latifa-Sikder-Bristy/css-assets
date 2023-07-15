@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* input{
+    display: block;
+} */
+.login-form{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    /* border: 2px solid blueviolet; */
+    width: 40%;
+    /* margin: auto;
+    or */
+}
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid salmon; */
+    align-items: center;
+    height: 100vh;
+}
+.login-form input{
+    margin-top: 20px;
+}
