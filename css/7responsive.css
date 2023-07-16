@@ -1,0 +1,26 @@
+/* Body max width and horizontal center align */
+body{
+    border: 2px solid skyblue;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.img-container{
+    display: flex;
+}
+.img-container{
+    width: 50%;
+}
+.img-container img{
+    width: 100%;
+}
+/* Medium Device  */
+/* max-width for max size */
+@media screen and (max-width: 576px) {
+    .img-container{
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+    }
+    .img-container div{
+        width: 100%;
+    }
+}
