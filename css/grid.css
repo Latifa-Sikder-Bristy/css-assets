@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 150px) 50px 50px;
+    gap: 50px;
+}
+.box{
+    background-color: #808284;
+}
+#box-1{
+/* marge row  */
+    grid-row: span 5;
+}
+#box-11, #box-12{
+    grid-column: span 3;
+}
+#box-6, #box-7, #box-9, #box-10{
+    background-color: #F4565A;
+}
